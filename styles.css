@@ -22,9 +22,15 @@ body {
 /* SECTION STYLES */
 /**************************/
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .main-section {
   max-width: 32rem;
-  margin: 15rem auto;
   background-color: hsl(0, 0%, 100%);
   padding: 2rem 2rem 3.5rem;
   border-radius: 2rem;
@@ -61,7 +67,6 @@ body {
 @media screen and (max-width: 22em) {
   .main-section {
     max-width: 30rem;
-    margin: 7rem auto;
     padding: 2rem 1.8rem 3.5rem;
   }
 }
