@@ -1,0 +1,84 @@
+/**************************/
+/* GENERAL STYLES */
+/**************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+/**************************/
+/* SECTION STYLES */
+/**************************/
+
+.main-section {
+  max-width: 32rem;
+  margin: 15rem auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem 2rem 3.5rem;
+  border-radius: 2rem;
+}
+
+.section-title {
+  color: #1f314f;
+  font-size: 2.2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.section-description {
+  color: #7d889e;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.6;
+  margin: 0 1rem;
+}
+
+.main-section img {
+  width: 100%;
+  margin-bottom: 2.4rem;
+  border-radius: 2rem;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.attribution a:link,
+.attribution a:visited {
+  text-decoration: none;
+}
+
+.attribution a:hover,
+.attribution a:active {
+  text-decoration: underline;
+}
+
+/**************************/
+/* MEDIA QUERIES */
+/**************************/
+
+@media screen and (max-width: 22em) {
+  .main-section {
+    max-width: 30rem;
+    padding: 2rem 1.8rem 3.5rem;
+  }
+
+  .attribution {
+    font-size: 1.7rem;
+  }
+}
