@@ -10,6 +10,7 @@
 
 html {
   font-size: 62.5%;
+  overflow: hidden;
 }
 
 body {
@@ -53,21 +54,6 @@ body {
   border-radius: 2rem;
 }
 
-.attribution {
-  text-align: center;
-  font-size: 2rem;
-}
-
-.attribution a:link,
-.attribution a:visited {
-  text-decoration: none;
-}
-
-.attribution a:hover,
-.attribution a:active {
-  text-decoration: underline;
-}
-
 /**************************/
 /* MEDIA QUERIES */
 /**************************/
@@ -75,11 +61,7 @@ body {
 @media screen and (max-width: 22em) {
   .main-section {
     max-width: 30rem;
+    margin: 7rem auto;
     padding: 2rem 1.8rem 3.5rem;
-  }
-
-  .attribution {
-    font-size: 1.7rem;
-    padding: 0 2rem;
   }
 }
